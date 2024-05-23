@@ -5,7 +5,7 @@
 #include <functional>
 #include <iostream>
 using std::placeholders::_1;
-int fourcc = cv::VideoWriter::fourcc('m', 'p', '4', 'v');
+int fourcc = cv::VideoWriter::fourcc('X', '2', '6', '4');
 cv::VideoWriter outputVideo("output.mp4", fourcc, 30, cv::Size(640, 360));
 
 void mysub_callback(rclcpp::Node::SharedPtr node, const sensor_msgs::msg::CompressedImage::SharedPtr msg)
@@ -28,4 +28,3 @@ int main(int argc, char* argv[])
     rclcpp::shutdown();
     return 0;
 }
-
