@@ -3,8 +3,5 @@
 ctrl+c를 누르면 저장을 종료하도록 하라.
 
 # 동작영상
-https://youtu.be/2ycSb8pj9NM?si=WAEDTvxVtbAy62QF
-
-
-https://github.com/cubejun/camera1-3/assets/133946040/2b99e7af-83c4-4895-b320-28cda8bb941d
+https://youtu.be/dWtXJWUZSMM
 
